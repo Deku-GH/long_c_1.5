@@ -9,7 +9,7 @@ int main()
     printf("veuillez saisir la nombre :\n");
     scanf("%d", p);
 
-    for (int i = 1; i < *p; i++)
+    for (int i = 1; i <= *p; i++)
     {
         if (*p % i == 0)
         {
